@@ -1,0 +1,15 @@
+.textAlign {
+    text-align: center;
+}
+
+.title {
+    color: #4ECCA3;
+    font-family: 'Lobster', cursive;
+    font-size: 6rem;
+}
+
+.paragraph {
+    color: rgba(255, 253, 253, 0.878);
+    font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
+}

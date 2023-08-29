@@ -2,6 +2,11 @@ body {
   background-color: #393E46;
 }
 
+.titleBox {
+  padding: 1.5rem;
+  width: 100%;
+}
+
 footer {
   margin-top: 5%;
   color: #EEEEEE;
