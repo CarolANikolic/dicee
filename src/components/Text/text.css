@@ -8,6 +8,10 @@
     font-size: 6rem;
 }
 
+.subtitle {
+    font-size: 2rem;
+}
+
 .paragraph {
     color: rgba(255, 253, 253, 0.878);
     font-family: 'Indie Flower', cursive;

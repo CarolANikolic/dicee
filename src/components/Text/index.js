@@ -6,9 +6,12 @@ const Text = (type, content) => {
 
     if (type === "h1") {
         textType.classList.add("title")
+    } else if (type === "h2") {
+        textType.classList.add("title", "subtitle")
     } else {
         textType.classList.add("paragraph")
     }  
+
     return textType
 }
 
