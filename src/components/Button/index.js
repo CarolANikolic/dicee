@@ -1,8 +1,8 @@
-const Button = (type, name) => {
+const Button = (type, name, use) => {
     const btnBox = document.createElement("div");
 
     btnBox.innerHTML = `
-    <button type=${type}>${name}</button>
+    <button type="${type}" class="btn ${use === 'roll' ? 'btnRoll' : 'btnReset'}">${name}</button>
     `;
 
     return btnBox;

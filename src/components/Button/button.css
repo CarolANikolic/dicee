@@ -1,0 +1,21 @@
+.btn {
+    border-radius: 10px;
+    border-style: none;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+    padding: 1rem;
+    transition: transform 0.3s;
+}
+
+.btn:active {
+    transform: scale(1.2);
+}
+
+.btnRoll {
+    background-color: #4ECCA3;
+    color: #fff;
+}
+
+.btnReset {
+    color: #393E46;
+}

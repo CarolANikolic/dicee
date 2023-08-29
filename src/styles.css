@@ -1,5 +1,15 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #393E46;
+}
+
+main {
+  background-color: red;
 }
 
 .titleBox {
@@ -8,14 +18,23 @@ body {
 }
 
 .playersBox {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
   margin: 0 auto;
+  text-align: center;
+  width: 60%;
+}
+
+.btnBox {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 3rem 0;
   width: 60%;
 }
 
 footer {
-  margin-top: 5%;
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
