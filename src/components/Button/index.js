@@ -1,11 +1,11 @@
-const Button = (type, name, use) => {
-    const btnBox = document.createElement("div");
-
-    btnBox.innerHTML = `
-    <button type="${type}" class="btn ${use === 'roll' ? 'btnRoll' : 'btnReset'}">${name}</button>
-    `;
-
-    return btnBox;
+const Button = (type, name, use, action) => {
+    const btn = document.createElement("button");
+    btn.type = type;
+    btn.className = "btn"
+    btn.classList.add(use === 'roll' ? 'btnRoll' : 'btnReset');
+    btn.textContent = name;
+    btn.addEventListener('click', action);
+    return btn;
 }
 
 export default Button
