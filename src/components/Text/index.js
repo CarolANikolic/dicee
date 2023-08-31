@@ -10,6 +10,10 @@ const Text = (type, content) => {
         textType.classList.add("title", "subtitle")
     } else {
         textType.classList.add("paragraph")
+
+         // Extract the unique ID from the content
+         const uniqueId = content.replace(/\s+/g, "_").toLowerCase();
+         textType.setAttribute("data-id", uniqueId);
     }  
 
     return textType
