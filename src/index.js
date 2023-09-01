@@ -3,7 +3,7 @@ import Text from "./components/Text/index.js";
 import Dice from "./components/Dice/index.js";
 import diceSides from "./assets/objects/diceSides.js";
 import rollDice from "./assets/functions/rollDice.js";
-import countScore from "./assets/functions/countScore.js";
+import { resetScore } from "./assets/functions/countScore.js";
 
 const mainContent = document.querySelector("main");
 const titleBox = document.createElement("div");
@@ -28,7 +28,7 @@ playersBox.appendChild(dicePTwo);
 playersBox.classList.add("playersBox");
 
 btnBox.appendChild(Button("button", "Roll dice", "roll", () => rollDice(diceSides, dicePOne, dicePTwo)));
-btnBox.appendChild(Button("button", "Reset", "reset", () => rollDice(diceSides, dicePOne, dicePTwo)));
+btnBox.appendChild(Button("button", "Reset", "reset", () => resetScore()));
 btnBox.classList.add("btnBox");
 
 footer.appendChild(Text("p", "www 🎲 App Brewery 🎲 com"))

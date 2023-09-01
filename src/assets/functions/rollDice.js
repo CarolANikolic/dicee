@@ -1,4 +1,4 @@
-import countScore from "./countScore.js";
+import { countScore } from "./countScore.js";
 
 const rollDice = (diceSides, dicePOne, dicePTwo) => {
     const diceLenght = diceSides.length;
@@ -10,6 +10,7 @@ const rollDice = (diceSides, dicePOne, dicePTwo) => {
     dicePTwo.querySelector("img").src = diceSides[randomDicePTwo].source;
 
     countScore(playersDice[0], playersDice[1])
+
 };
 
 export default rollDice
