@@ -2,7 +2,7 @@
 
 Dicee is a project where two players can roll the dice and see who is the luckiest. You can use Dicee to roll a six-sided dice online while playing a board game or test your luck against a friend. The purpose of this project was to practice modules with JavaScript.
 
-<img src="public/img/screenshot/dicee-screenshot.png" width=100% alt="Dicee mobile screnshot">
+<img src="public/images/screenshot/dicee-screenshot.png" width=100% alt="Dicee mobile screnshot">
 
 ## Development Process
 
@@ -19,7 +19,7 @@ Dicee is a project where two players can roll the dice and see who is the luckie
 ## Technologies and Tools
 
 - [HTML5](https://html.com)
-- [CSS3] (https://www.w3.org/Style/CSS/)
+- [CSS3](https://www.w3.org/Style/CSS/)
 - [JavaScript](https://www.javascript.com)
 
 ## Requirements
