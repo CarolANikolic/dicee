@@ -2,7 +2,7 @@
 
 Dicee is a project where two players can roll the dice and see who is the luckiest. You can use Dicee to roll a six-sided dice online while playing a board game or test your luck against a friend. The purpose of this project was to practice modules with JavaScript.
 
-<img src="src/assets/images/screenshot/dicee-screenshot.png" width=100% alt="Dicee mobile screnshot">
+<img src="./public/images/screenshot/dicee-screenshot.png" width=100% alt="Dicee mobile screnshot"" width=100% alt="Dicee mobile screnshot">
 
 ## Development Process
 
@@ -30,11 +30,11 @@ To work with the code, you will need, before you begin, to install in your machi
 
 ### How to structure a project while working with modules:
 
-- Folders structure as well as how to organize the components with their own folder, js and css files;
+- Thinking of the project's architecture, how to organize the components with their own folder, js, and css files;
 
-### Sharpen my skills at making the code resuable and modular:
+### Sharpen my skills at making the code reusable and modular:
 
-- Keeping the code organized and having separate files that services its own functionalities, like a button component:
+- Keeping the code organized and working with the separation of concerns so each module has its own responsibility.
 
 ~~~
 const Button = (type, name, use, action) => {
