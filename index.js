@@ -7,7 +7,6 @@ import { resetScore } from "../src/assets/functions/countScore.js";
 
 // Select DOM elements
 const mainContent = document.querySelector("main");
-const footer = document.querySelector("footer");
 
 // Create main elements
 
@@ -40,9 +39,11 @@ btnBox.appendChild(Button("button", "Reset", "reset", () => resetScore()));
 btnBox.classList.add("btnBox");
 
 // Footer
-footer.appendChild(Text("p", "www 🎲 App Brewery 🎲 com"))
+const footer = document.createElement("footer");
+footer.appendChild(Text("p", "www 🎲 App Brewery 🎲 com"));
 
 // Append elements to the main content
 mainContent.appendChild(titleBox);
 mainContent.appendChild(playersBox);
 mainContent.appendChild(btnBox);
+mainContent.appendChild(footer);
