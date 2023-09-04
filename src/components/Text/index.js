@@ -9,11 +9,11 @@ const Text = (type, content) => {
     } else if (type === "h2") {
         textType.classList.add("title", "subtitle")
     } else {
-        textType.classList.add("paragraph")
+        textType.classList.add("paragraph");
 
-         // Extract the unique ID from the content
-         const uniqueId = content.replace(/\s+/g, "_").toLowerCase();
-         textType.setAttribute("data-id", uniqueId);
+        // Extract the unique ID from the content
+        const uniqueId = content.replace(/\s+/g, "_").toLowerCase();
+        textType.setAttribute("data-id", uniqueId);
     }  
 
     return textType
