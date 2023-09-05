@@ -34,7 +34,7 @@ playersBox.classList.add("playersBox");
 
 // Button Box
 const btnBox = document.createElement("div");
-btnBox.appendChild(Button("button", "Roll dice", "roll", () => rollDice(diceSides, dicePOne, dicePTwo)));
+btnBox.appendChild(Button("button", "Roll dice", "roll", () => rollDice(diceSides)));
 btnBox.appendChild(Button("button", "Reset", "reset", () => resetScore()));
 btnBox.classList.add("btnBox");
 

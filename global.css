@@ -4,6 +4,25 @@ html {
   box-sizing: border-box;
 }
 
+/* Define the keyframes for the shake animation */
+@keyframes shake {
+  0% {
+    transform: translateX(0); /* Start from the current position */
+  }
+  25% {
+    transform: translateX(10px); /* Move right */
+  }
+  50% {
+    transform: translateX(-10px); /* Move left */
+  }
+  75% {
+    transform: translateX(10px); /* Move right */
+  }
+  100% {
+    transform: translateX(0); /* Return to the original position */
+  }
+}
+
 body {
   background-color: #393E46;
   min-height: 100vh;
@@ -45,4 +64,9 @@ footer {
   text-align: center;
   font-family: 'Indie Flower', cursive;
   width: 100%;
+}
+
+/* Apply the animation to the image element */
+.shakeImage {
+  animation: shake 0.5s ease 3;
 }
