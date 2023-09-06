@@ -2,6 +2,8 @@
 
 Dicee is a project where two players can roll the dice and see who is the luckiest. You can use Dicee to roll a six-sided dice online while playing a board game or test your luck against a friend. The purpose of this project was to practice modules with JavaScript.
 
+### Check out DevNote [here](https://dicee-roll-dice.netlify.app)
+
 <img src="./public/images/screenshot/dicee-screenshot.png" width=100% alt="Dicee mobile screnshot"" width=100% alt="Dicee mobile screnshot">
 
 ## Development Process
@@ -49,6 +51,20 @@ const Button = (type, name, use, action) => {
 
 export default Button
 
+~~~
+
+### Using spread operator to work with elements of a Node list
+
+~~~
+// Spread operator, remove array elements from the node list
+[...diceImage].map((image, index) => {
+    shakeDice(image);
+    if (index === 0) {
+        image.src = diceSides[randomDicePOne].source;
+    } else {
+        image.src = diceSides[randomDicePTwo].source;
+    }   
+});
 ~~~
 
 ### Practice DOM manipulation:
