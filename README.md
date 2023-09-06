@@ -4,7 +4,7 @@ Dicee is a project where two players can roll the dice and see who is the luckie
 
 ### Check out DevNote [here](https://dicee-roll-dice.netlify.app)
 
-<img src="./public/images/screenshot/dicee-screenshot.png" width=100% alt="Dicee mobile screnshot"" width=100% alt="Dicee mobile screnshot">
+<img src="./public/images/screenshot/dicee-screenshot.png" width=100% alt="Dicee mobile screnshot" width=100% alt="Dicee mobile screnshot">
 
 ## Development Process
 
