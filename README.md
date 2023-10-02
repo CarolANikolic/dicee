@@ -2,7 +2,7 @@
 
 Dicee is a project where two players can roll the dice and see who is the luckiest. You can use Dicee to roll a six-sided dice online while playing a board game or test your luck against a friend. The purpose of this project was to practice modules with JavaScript.
 
-### Check out DevNote [here](https://dicee-roll-dice.netlify.app)
+### Check out Dicee [here](https://dicee-roll-dice.netlify.app)
 
 <img src="./public/images/screenshot/dicee-screenshot.png" width=100% alt="Dicee mobile screnshot" width=100% alt="Dicee mobile screnshot">
 
